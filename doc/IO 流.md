@@ -22,7 +22,7 @@
 
 |分类|字节输入流|字节输出流|字符输入流|字符输入流|
 |:---|---|---|---|---|
-|抽象基类|<font color='red'>InputStream|<font color='red'>OutputStream|<font color='red'>Reader|<font color='red'>Writer|
+|抽象基类|<font color='red'>InputStream</font>|<font color='red'>OutputStream|<font color='red'>Reader|<font color='red'>Writer|
 |访问文件|<font color='red'>FileInputStream|<font color='red'>FileOutputStream|<font color='red'>FileReader|<font color='red'>FileWriter|
 |访问数组|ByteArrayInputStream|ByteArrayOutputStream|CharArrayReader|CharArrayWriter|
 |访问管道|PipedInputStream|PipedOutputStream|PipedReader|PipedWriter|\
