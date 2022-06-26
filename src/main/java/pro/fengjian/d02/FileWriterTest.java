@@ -11,7 +11,7 @@ public class FileWriterTest {
         FileWriter fw = null;
 
         try {
-            // 1. 构建 FileWriter 类型对象/Users/fengjian/study/temp/a.txt 文件关联
+            // 1. 构建 FileWriter 类型对象与/Users/fengjian/study/temp/a.txt 文件关联
             // 若文件不存在，该流会自动创建新的空文件
             // 若文件存在，则该流会清空文件中的原有内容
             fw = new FileWriter("/Users/fengjian/study/temp/a.txt");
