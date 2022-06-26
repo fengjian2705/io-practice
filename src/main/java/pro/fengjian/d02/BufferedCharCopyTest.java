@@ -18,7 +18,7 @@ public class BufferedCharCopyTest {
             String str = null;
             while ((str = br.readLine()) != null) {
                 bw.write(str);
-                bw.newLine();
+                bw.newLine();// 当前系统中的行分隔符
             }
             System.out.println("拷贝文件成功 !");
         } catch (IOException e) {
